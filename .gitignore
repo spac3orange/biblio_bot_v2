@@ -6,3 +6,6 @@ venv/
 
 #ignore sessions folder
 crud/data/telethon_sessions
+
+# Ignore google greds
+config/my-project-library-435708-2461a1714d4d.json

@@ -12,8 +12,10 @@ async def set_commands_menu(bot):
     main_menu_commands = [
         BotCommand(command='/start',
                    description='Главное меню'),
-        BotCommand(command='/status',
-                   description='Статус мониторинга'),
+        BotCommand(command='/cart',
+                   description='Корзина'),
+        BotCommand(command='/support',
+                   description='Тех. Поддержка')
     ]
 
     await bot.set_my_commands(main_menu_commands)

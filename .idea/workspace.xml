@@ -1,18 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a1ebe89-135c-4898-af6b-0a42a48459e7" name="Changes" comment="" />
+    <list default="true" id="4a1ebe89-135c-4898-af6b-0a42a48459e7" name="Changes" comment="v1.0">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/google_sheets.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/google_sheets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/logger/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/logger/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/my-project-library-435708-2461a1714d4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/crud/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/crud/db_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud/db_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/filters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/filters/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/admin_panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/admin_panel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/books_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/books_catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/subscription.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/subscription.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/user_lk.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/user_lk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/main_kb.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/main_kb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/pop_up_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/pop_up_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/states/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/states/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/states/states.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "spac3orange"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/spac3orange/biblio_bot.git",
+    "accountId": "1df4e455-44c1-4038-a2c2-8b5c3dfa06b4"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2m52xkuhrsUtR5AMzEko86GiEJi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,14 +71,109 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.bot.executor": "Run",
+    "Python.google_sheets.executor": "Run",
+    "Python.start.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/MyProjects/Work Projects/Work_2024/biblio_bot/media",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot\media" />
+      <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot\app\filters" />
+      <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot\app\crud" />
+      <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot\app\config" />
+      <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot\app\keyboards" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot\app" />
+      <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.bot">
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="biblio_bot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="google_sheets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="biblio_bot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/config/google_sheets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="biblio_bot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/handlers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/handlers/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bot" />
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.google_sheets" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -41,6 +186,38 @@
       <option name="presentableId" value="Default" />
       <updated>1726352365063</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1.0">
+      <option name="closed" value="true" />
+      <created>1734018502424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734018502424</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v1.0">
+      <option name="closed" value="true" />
+      <created>1734018895412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734018895412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
   </component>
 </project>
