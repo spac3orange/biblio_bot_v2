@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a1ebe89-135c-4898-af6b-0a42a48459e7" name="Changes" comment="v1.0">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/google_sheets.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/google_sheets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/logger/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/logger/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/my-project-library-435708-2461a1714d4d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/crud/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/crud/db_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud/db_action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/filters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/filters/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/admin_panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/admin_panel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/books_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/books_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/subscription.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/subscription.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/user_lk.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/user_lk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/keyboards/main_kb.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/main_kb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/keyboards/pop_up_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/pop_up_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/states/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/states/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/states/states.py" afterDir="false" />
-    </list>
+    <list default="true" id="4a1ebe89-135c-4898-af6b-0a42a48459e7" name="Changes" comment="v1.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +29,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/spac3orange/biblio_bot.git",
+    "url": "https://github.com/spac3orange/biblio_bot_v2.git",
     "accountId": "1df4e455-44c1-4038-a2c2-8b5c3dfa06b4"
   }
 }]]></component>
@@ -82,6 +58,9 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyProjects\Work Projects\Work_2024\biblio_bot\media" />
@@ -202,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734018895412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1.1">
+      <option name="closed" value="true" />
+      <created>1734020294801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734020294801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
+    <MESSAGE value="v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1" />
   </component>
 </project>
