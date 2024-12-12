@@ -1,7 +1,7 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-KEY_FILE = 'config/my-project-library-435708-2461a1714d4d.json'
+KEY_FILE = 'config/my-project-library-435708-1f5be7c9794e.json'
 
 # Установите ваши права доступа и используйте их для авторизации
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
