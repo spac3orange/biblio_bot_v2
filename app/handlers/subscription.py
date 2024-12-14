@@ -14,7 +14,11 @@ async def p_subscription(call: CallbackQuery):
     uid = call.from_user.id
     sub = await db.get_subscription(uid)
     print(sub)
-    await call.message.answer(f'Статус подписки: {sub}'
+    sub_text = '''
+    Подписка помогает нам расширять нашу библиотеку, улучшать сервис и делать так, чтобы больше людей каждый день могли получать удовольствие от чтения. 
+    Чтобы получить доступ к библиотеке, выбери один из вариантов подписки - в рамках 30 дней ты можешь взять в аренду 1 или несколько книг. Продлевать аренду, к сожалению, нельзя.
+    '''
+    await call.message.answer(text=sub_text + f'\n\nСтатус подписки: {sub}'
                               f'\nДата начала подписки: '
                               f'\nДата окончания подписки: ', reply_markup=main_kb.subscription_menu())
 

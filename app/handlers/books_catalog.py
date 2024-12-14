@@ -15,7 +15,11 @@ router = Router()
 @router.callback_query(F.data == 'books_catalog')
 async def p_bcat(call: CallbackQuery):
     await call.answer()
-    await call.message.answer('Каталог книг', reply_markup=main_kb.catalog_menu())
+    catalog_text = '''
+    Здесь собраны все наши книги, которые ждут встречи с тобой прямо сейчас.
+    Если книга не кликабельна, значит ее сейчас кто-то читает, но совсем скоро она снова будет доступна
+    '''
+    await call.message.answer(text=catalog_text, reply_markup=main_kb.catalog_menu())
 
 
 @router.callback_query(F.data == 'cat_author_sort')
