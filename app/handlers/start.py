@@ -23,7 +23,7 @@ async def process_start(message: Message, state: FSMContext):
 \n<b>Как это работает:</b> выбери любую книгу, оформи подписку за донаты и мы доставим ее в удобный пункт выдачи. Книга доступна для аренды в течение 30 календарных дней.
 После - ее надо будет вернуть в один из удобных для тебя пунктов. Одновременно ты можешь взять не одну, а несколько книг. В общем, все просто. Начнем? 
     '''
-    await message.answer_photo(photo=start_photo, caption=start_text, reply_markup=main_kb.start_btns(uid))
+    await message.answer_photo(photo=start_photo, caption=start_text, reply_markup=main_kb.start_btns(uid), parse_mode='HTML')
 
 
 @router.callback_query(F.data == 'back_to_main')
@@ -38,7 +38,7 @@ async def p_back_tomain(call: CallbackQuery, state: FSMContext):
 \n<b>Как это работает</b>: выбери любую книгу, оформи подписку за донаты и мы доставим ее в удобный пункт выдачи. Книга доступна для аренды в течение 30 календарных дней.
 После - ее надо будет вернуть в один из удобных для тебя пунктов. Одновременно ты можешь взять не одну, а несколько книг. В общем, все просто. Начнем? 
     '''
-    await call.message.answer_photo(photo=start_photo, caption=start_text, reply_markup=main_kb.start_btns(uid))
+    await call.message.answer_photo(photo=start_photo, caption=start_text, reply_markup=main_kb.start_btns(uid), parse_mode='HTML')
 
 
 @router.message(Command(commands='cancel'))
@@ -52,4 +52,4 @@ async def process_start(message: Message, state: FSMContext):
 \n<b>Как это работает:</b> выбери любую книгу, оформи подписку за донаты и мы доставим ее в удобный пункт выдачи. Книга доступна для аренды в течение 30 календарных дней.
 После - ее надо будет вернуть в один из удобных для тебя пунктов. Одновременно ты можешь взять не одну, а несколько книг. В общем, все просто. Начнем? 
     '''
-    await message.answer_photo(photo=start_photo, caption=start_text, reply_markup=main_kb.start_btns(uid))
+    await message.answer_photo(photo=start_photo, caption=start_text, reply_markup=main_kb.start_btns(uid), parse_mode='HTML')
