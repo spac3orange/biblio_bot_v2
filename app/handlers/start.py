@@ -8,7 +8,7 @@ from app.keyboards import main_kb
 import os
 router = Router()
 
-async def parse_media(path='start_image.png'):
+async def parse_media(path='app/start_image.png'):
     return FSInputFile(path)
 
 @router.message(Command(commands='start'))
